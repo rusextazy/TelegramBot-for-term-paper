@@ -1,5 +1,6 @@
 .env
 
+app.databese.unior_new.db
 .mypy_cache/
 .idea/
 venv/
