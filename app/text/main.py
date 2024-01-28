@@ -27,3 +27,5 @@ reply = """
 <b><i>ФИО папы:</i></b> {Father_Name}
 <b><i>Номера родителей:</i></b> {Parents_Contacts}
 """
+
+resp = "rabota"
