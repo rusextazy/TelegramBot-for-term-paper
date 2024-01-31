@@ -71,8 +71,6 @@ async def get_education_child(msg: Message, state: FSMContext):
 
 @router.message(Statement.Child_Contacts)
 async def get_contacts_child(msg: Message, state: FSMContext):
-    await msg.answer(text="Введите корректный номер телефона\n"
-                          "Формат: 89503352178")
     await state.update_data(child_contacts=msg.text)
     child_contacts = await state.get_data()
     print(child_contacts['child_contacts'])

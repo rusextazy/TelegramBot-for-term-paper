@@ -28,4 +28,3 @@ reply = """
 <b><i>Номера родителей:</i></b> {Parents_Contacts}
 """
 
-resp = "rabota"
